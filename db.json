@@ -1,0 +1,22 @@
+{
+  "blogs": [
+    {
+      "title": "React",
+      "author": "...",
+      "content": "React is a popular JavaScript library for building user interfaces. It was developed by Facebook and is now maintained by a community of developers. React uses a declarative approach to building user interfaces, which means that you describe what you want your interface to look like, and React takes care of updating the DOM when the data changes.\n\n",
+      "id": 2
+    },
+    {
+      "title": "node .js",
+      "author": "....",
+      "content": "Node.js is an open-source, cross-platform JavaScript runtime environment that allows developers to build server-side applications in JavaScript. Node.js is built on top of the Google V8 JavaScript engine, which is the same engine used by the Google Chrome web browser.\n\n",
+      "id": 3
+    },
+    {
+      "title": "Express",
+      "author": "...",
+      "content": "Express is a popular web application framework for Node.js. It provides a set of features and utilities for building web applications and APIs, including handling HTTP requests and responses, routing, middleware, and more.",
+      "id": 4
+    }
+  ]
+}

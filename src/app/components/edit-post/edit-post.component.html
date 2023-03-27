@@ -1,0 +1,16 @@
+<div class="container col-sm-6 mx-auto align-item-center">
+    <div>
+        <h3 class="text-center mt-3 ">Blog details</h3>
+    </div>
+    <form action="" (ngSubmit)="updateBlog(updateform)" #updateform="ngForm">
+    <div  class="card mb-3 text-white p-2">
+        <input [(ngModel)]="blogdata.title" class="text-bold form-control mt-3"name="a1"id="b1">
+        <textarea  [(ngModel)]="blogdata.content"class="text-bold form-control mt-3"name="a3"id="b3"></textarea>
+        <input  [(ngModel)]="blogdata.author"class="text-bold form-control mt-3"name="a2"id="b2" >
+
+       <button type="submit" class="btn " >edit</button>
+        
+    </div>
+</form>
+</div>
+

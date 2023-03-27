@@ -1,0 +1,55 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Signika&display=swap');
+
+.captions p{
+        color: #176a7c;
+        font-weight: 900;
+        font-size: 50px;
+        text-shadow: -1px -1px 0 rgb(245, 240, 240), 1px -1px 0 rgb(224, 210, 210), -1px 1px 0 rgb(184, 203, 214), 1px 1px 0 #000;
+        font-family: 'Signika', sans-serif;     
+    }
+   
+       
+       .captions {
+         margin-top: 100px;
+         margin-left: 100px;
+         margin-right: 100px;
+         background-color: rgba(124, 141, 134, 0.3);
+         padding: 20px;
+         border-radius: 30px;
+
+       }
+      
+   .btn{
+       margin-bottom: 9px;
+        background-color: rgb(252, 249, 249);
+        color: rgb(10, 96, 99);
+        margin-top: 30px;
+        outline: 2px solid rgb(55, 110, 124);
+
+        
+   }
+   .active{
+     background-size: cover; 
+      height: 700px;
+       opacity: o.4;
+   }
+   
+   
+@media  (max-width:800px){
+    .captions{
+        margin-left: 60px;
+        margin-top:30%;
+    }
+    .b1{
+        font-size:30px ;
+       
+    }
+    .b11{
+        font-size: 20px;
+        
+    
+    }
+    
+
+}

@@ -1,0 +1,21 @@
+<div class="container col-sm-6 mx-auto align-item-center">
+    <div>
+        <h3 class="text-center heading mt-3 ">Blog details</h3>
+    </div>
+    
+    <div  class="card mb-3 text-white mt-3 ">
+        <p class="text-bold title text-center">{{blog.title}}</p>
+
+        <p class="text-bold texts">{{blog.content}}</p>
+        <p class="text-bold texts"style="text-align: right">-{{blog.author}}</p>
+
+        <div class="buttons ms-5">
+       <a href="editblog/{{blog.id}}"> <button class="btn edit" >
+        Edit</button></a>
+        <a href="deleteblog/{{blog.id}}"><button class="btn btn-danger" >
+            Delete</button></a>
+        </div>
+
+    </div>
+
+</div>

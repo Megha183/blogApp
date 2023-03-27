@@ -1,0 +1,26 @@
+
+.container1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border: 1px solid black;
+    margin-top: 20px;
+border-radius: 20px;
+background-color: rgb(76, 173, 173);
+font-family: 'Signika', sans-serif;     
+
+  }
+  
+  .blog-post {
+    width: 30%;
+    margin: 1%;
+  }
+  .btn{
+    background-color: rgb(56, 143, 143);
+    color:white;
+    width: 150px;
+      outline: 2px solid rgb(241, 241, 245);
+    
+    
+  }
+  

@@ -1,0 +1,40 @@
+.container{
+    padding: 5px;
+    
+}
+.card{
+    font-family: 'Signika', sans-serif;     
+    padding: 30px;
+    background-color: rgb(53, 175, 175);
+}
+.buttons{
+    display: flex;
+    
+}
+.edit{
+    margin-left: 5px;
+    width: 150px;
+    background-color: rgb(230, 247, 77);
+    color: black;
+}
+.btn-danger{
+    margin-left: 250px;
+    width: 150px;
+}
+
+.heading{
+    font-size: 30px;
+   
+text-shadow: 2px 2px 4px rgba(146, 118, 118, 0.5);
+}
+.title{
+    font-size: 40px;
+    color: #d7d8d8;
+        font-size: 50px;
+        text-shadow: -1px -1px 0 rgb(20, 15, 15), 1px -1px 0 rgb(22, 18, 18), -1px 1px 0 rgb(12, 14, 15), 1px 1px 0 #000;
+        
+    
+}
+.texts{
+    font-size: 20px;
+}

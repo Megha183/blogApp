@@ -1,0 +1,56 @@
+
+
+<div class="mainContainer">
+    <div class="container-fluid">
+      <p class="text-center mb-4 topHead"> Blogging Arena</p>
+      <div class="row">
+        <div *ngFor="let blog of blogs" class="col-md-4 ">
+          <div class="card mb-3 text-light p-4 blogs">
+            <p class="text-bold mt-2 title" name="a1" id="b1">{{blog.title}}</p>
+            <p class="text-bold mt-3" name="a3" id="b3">{{blog.content | slice:0:100}}<span>  
+              <a [routerLink]="['../blogs',blog.id]" class="text-bold viewMore"> ...View More</a></span></p>
+            <p class="text-bold mt-2 author" name="a2" id="b2" style="text-align: right">-{{blog.author}}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <!-- <div class="mainContainer">
+<div class="container col-sm-6 mx-auto align-item-center">
+    <div>
+        <h3 class="text-center ">Recent Blog here...</h3>
+    </div>
+    <div *ngFor="let blog of blogs" class="card mb-3 text-light p-5" class="blogs">
+        <p class="text-bold mt-2 title"name="a1"id="b1">{{blog.title}}</p>
+
+        <p class="text-bold mt-3"name="a3"id="b3">{{blog.content | slice:0:100}}<span><a [routerLink]="['blogs',blog.id]"
+                    class="text-light text-bold">...More</a></span></p>
+                    <p class="text-bold mt-3 author"name="a2"id="b2"style="text-align: right">-{{blog.author}}</p>
+
+    </div>
+</div>
+</div> -->
+  
